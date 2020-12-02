@@ -1,4 +1,4 @@
-var url = "https://api.minetools.eu/ping/fi2.falixnodes.net/27524";
+var url = "https://api.minetools.eu/ping/fi2.falixnodes.net/45942";
 $.getJSON(url, function(r) {
  if(r.error){
     $('#rest').html('Server Offline, Please contact Tasla for the reason');
